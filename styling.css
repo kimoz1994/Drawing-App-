@@ -1,0 +1,134 @@
+/*center all body elements and add background image*/
+body{
+    
+    text-align: center;
+    background: url("images/painting4.jpg") center center fixed;
+    background-size: cover;
+    
+}
+
+
+#header{
+    
+   background: linear-gradient(#1d57c3,#d0cce4); 
+ -webkit-  background: linear-gradient(#1d57c3,#d0cce4); 
+-moz-   background: linear-gradient(#1d57c3,#d0cce4); 
+-o-   background: linear-gradient(#1d57c3,#d0cce4); 
+-ms-   background: linear-gradient(#1d57c3,#d0cce4); 
+    
+    
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 3em;
+    color: #fff;
+    line-height:70px 
+}
+
+
+
+
+
+.inputcontainer {
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+.input {
+    height: 30px;
+    font-size: 1.3em;
+}
+
+
+#slider{
+    
+    margin: 10px auto;
+}
+#circle {
+   height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  -webkit-  transform: translate(-50%,-50%);
+    -moz- transform: translate(-50%,-50%);
+    -o- transform: translate(-50%,-50%);
+    -ms- transform: translate(-50%,-50%);
+}
+
+#thicknessinput {
+    position: relative;
+}
+
+
+/*styling the canvas container */
+
+#container {
+    
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+/*styling the canvas*/
+#paint{
+    
+  background-color: white;
+  cursor: crosshair;
+    
+}
+
+
+/*input container for buttons*/
+
+.inputcontainer2 {
+   width: 399px;
+    margin: 0 auto;
+}
+
+/*container of button*/
+.input2 {
+    width: 133px;
+    color: black;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button{
+    background: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.5);
+   -webkit- box-shadow: 0px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 4px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.button:hover{
+    
+    color: white;
+    background: linear-gradient(#1c56c4,#b9ccf2);
+    -webkit-background: linear-gradient(#1c56c4,#b9ccf2);
+    -moz-background: linear-gradient(#1c56c4,#b9ccf2);
+}
+.button:active{
+    
+    top: 4px;
+    
+}
+
+.erasemode{
+    
+    background-color: red;
+    color: white;
+}
+
